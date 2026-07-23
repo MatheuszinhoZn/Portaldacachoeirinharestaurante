@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portal da Cachoeirinha</title>
+  <meta name="description" content="Cardápio do Portal da Cachoeirinha — comercial, pratos feitos, pratos do dia, buffet, porções, lanches e bebidas." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;800&family=Bebas+Neue&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- HEADER / NAV -->
+  <header id="site-header" class="nav">
+    <div class="container nav__inner">
+      <a href="#" class="brand">
+        <span class="brand__mark">PC</span>
+        Portal da Cachoeirinha
+      </a>
+      <nav class="nav__links" aria-label="Principal">
+        <a href="#menu">Cardápio</a>
+        <a href="#local">Onde estamos</a>
+      </nav>
+      <a href="#contato" class="nav__cta">Fale conosco</a>
+      <button class="nav__burger" aria-label="Abrir menu">&#9776;</button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="hero" class="hero">
+    <div class="hero__inner">
+      <span class="eyebrow">Comida brasileira &middot; Músicas ao vivo nos finais de semana</span>
+      <h1>Porções, <em>chopp gelado</em> e boa prosa.</h1>
+      <p>Um cantinho onde a comida é honesta, o atendimento é caloroso e a mesa é sempre pra dividir. Confira nosso cardápio e venha nos visitar.</p>
+      <div class="hero__ctas">
+        <a href="#menu" class="btn btn--primary">Ver cardápio</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <main>
+    <section id="menu" class="section">
+      <div class="container">
+        <div class="section__head">
+          <span class="eyebrow">Nosso cardápio</span>
+          <h2>Da cozinha pra sua mesa</h2>
+          <p>Comida brasileira, com pratos típicos nordestino. Venha conferir.</p>
+        </div>
+
+        <div class="menu-tabs" role="tablist">
+          <button class="menu-tab is-active" data-tab="comercial" role="tab">Comercial</button>
+          <button class="menu-tab" data-tab="pratos feitos" role="tab">Pratos feitos</button>
+          <button class="menu-tab" data-tab="pratos do dia" role="tab">Pratos do dia</button>
+          <button class="menu-tab" data-tab="buffet" role="tab">Buffet</button>
+          <button class="menu-tab" data-tab="porcoes" role="tab">Porções</button>
+          <button class="menu-tab" data-tab="lanches" role="tab">Lanches</button>
+          <button class="menu-tab" data-tab="bebidas sem alcool" role="tab">Bebidas s/ álcool</button>
+          <button class="menu-tab" data-tab="bebidas com alcool" role="tab">Bebidas c/ álcool</button>
+        </div>
+
+        <div class="menu-group is-active" data-group="comercial">
+          <div class="menu-grid">
+            <div class="menu-item">
+              <span class="menu-item__name">Costela com Mandioca</span>
+              <span class="menu-item__price">R$ 27,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Frango ao molho</span>
+              <span class="menu-item__price">R$ 26,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Frango assado</span>
+              <span class="menu-item__price">R$ 26,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Rabada com polenta</span>
+              <span class="menu-item__price">R$ 28,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Carne assada</span>
+              <span class="menu-item__price">R$ 29,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Cupim no bafo</span>
+              <span class="menu-item__price">R$ 29,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Calabresa acebolada</span>
+              <span class="menu-item__price">R$ 25,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Dobradinha</span>
+              <span class="menu-item__price">R$ 28,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Bisteca</span>
+              <span class="menu-item__price">R$ 27,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Filé de peixe</span>
+              <span class="menu-item__price">R$ 28,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Contra filé da casa</span>
+              <span class="menu-item__price">R$ 34,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Filé de frango</span>
+              <span class="menu-item__price">R$ 29,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Parmegiana de Frango</span>
+              <span class="menu-item__price">R$ 35,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Parmegiana de Contra</span>
+              <span class="menu-item__price">R$ 38,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Fígado acebolado</span>
+              <span class="menu-item__price">R$ 25,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Omelete</span>
+              <span class="menu-item__price">R$ 26,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Picadinho com legumes</span>
+              <span class="menu-item__price">R$ 27,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-group" data-group="pratos feitos">
+          <div class="menu-grid">
+            <div class="menu-item">
+              <span class="menu-item__name">Picadinho</span>
+              <span class="menu-item__price">R$ 21,99</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Costela</span>
+              <span class="menu-item__price">R$ 21,99</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Frango ao molho</span>
+              <span class="menu-item__price">R$ 21,99</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Frango assado</span>
+              <span class="menu-item__price">R$ 21,99</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Calabresa</span>
+              <span class="menu-item__price">R$ 21,99</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Omelete</span>
+              <span class="menu-item__price">R$ 21,99</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Bisteca</span>
+              <span class="menu-item__price">R$ 21,99</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Dobradinha</span>
+              <span class="menu-item__price">R$ 21,99</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Fígado acebolado</span>
+              <span class="menu-item__price">R$ 21,99</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Contra filé</span>
+              <span class="menu-item__price">R$ 21,99</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Sarapatel</span>
+              <span class="menu-item__price">R$ 21,99</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-group" data-group="pratos do dia">
+          <div class="menu-grid">
+            <div class="menu-item">
+              <span class="menu-item__name">Virado à paulista</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+              <span class="menu-item__tag">Segunda-feira</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Bife a rolê</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+              <span class="menu-item__tag">Terça-feira</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Feijoada P/M/G</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+              <span class="menu-item__tag">Quarta-feira</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Massas</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+              <span class="menu-item__tag">Quinta-feira</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Filé de peixe</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+              <span class="menu-item__tag">Sexta-feira</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Feijoada P/M/G</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+              <span class="menu-item__tag">Sábado</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-group" data-group="buffet">
+          <div class="menu-grid">
+            <div class="menu-item">
+              <span class="menu-item__name">Buffet à vontade</span>
+              <span class="menu-item__price">R$ 32,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Buffet por KG</span>
+              <span class="menu-item__price">R$ 55</span>
+              <p class="menu-item__desc">R$ 5,50 a cada 100g </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-group" data-group="porcoes">
+          <div class="menu-grid">
+            <div class="menu-item">
+              <span class="menu-item__name">Porção de contra filé</span>
+              <span class="menu-item__price">R$ 74,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Carne de sol</span>
+              <span class="menu-item__price">R$ 80</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Frango a passarinho</span>
+              <span class="menu-item__price">R$ 54,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Porção de calabresa</span>
+              <span class="menu-item__price">R$ 44,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Fritas</span>
+              <span class="menu-item__price">R$ 39,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Isca de peixe</span>
+              <span class="menu-item__price">R$ 54,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Tilápia inteira</span>
+              <span class="menu-item__price">R$ 75,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Tábua de frios</span>
+              <span class="menu-item__price">R$ 85,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Mandioca frita</span>
+              <span class="menu-item__price">R$ 39,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Salame</span>
+              <span class="menu-item__price">R$ 64,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Picanha</span>
+              <span class="menu-item__price">R$ 120</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Caldo de mocotó</span>
+              <span class="menu-item__price">R$ 14,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Torresmo</span>
+              <span class="menu-item__price">R$ 40</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Sarapatel</span>
+              <span class="menu-item__price">R$ 19,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Tilápia com baião</span>
+              <span class="menu-item__price">R$ 99,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-group" data-group="lanches">
+          <div class="menu-grid">
+            <div class="menu-item">
+              <span class="menu-item__name">Misto quente</span>
+              <span class="menu-item__price">R$ 12,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Queijo quente</span>
+              <span class="menu-item__price">R$ 12,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Bauru</span>
+              <span class="menu-item__price">R$ 14,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Americano</span>
+              <span class="menu-item__price">R$ 16,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Misto frio</span>
+              <span class="menu-item__price">R$ 12,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">X Burguer</span>
+              <span class="menu-item__price">R$ 14,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">X Egg</span>
+              <span class="menu-item__price">R$ 17,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">X Salada</span>
+              <span class="menu-item__price">R$ 19,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">X Bacon</span>
+              <span class="menu-item__price">R$ 16,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">X Tudo</span>
+              <span class="menu-item__price">R$ 31,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">X Calabresa</span>
+              <span class="menu-item__price">R$ 17,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">X Frango</span>
+              <span class="menu-item__price">R$ 22,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">X Churrasco</span>
+              <span class="menu-item__price">R$ 25,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">X Salame</span>
+              <span class="menu-item__price">R$ 20,90</span>
+              <p class="menu-item__desc">Descrição do prato</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-group" data-group="bebidas sem alcool">
+          <div class="menu-grid">
+            <div class="menu-item">
+              <span class="menu-item__name">Refrigerante lata</span>
+              <span class="menu-item__price">R$ 8</span>
+              <p class="menu-item__desc">Descrição do produto</p>
+              <span class="menu-item__tag">Bebiba sem álcool</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Sucos</span>
+              <span class="menu-item__price">R$ 10,90</span>
+              <p class="menu-item__desc">Laranja, Manga, Maracujá, Limão, Goiaba, Cupuaçu, Morango, Caju, Abacaxi, Acerola, Melancia, Graviola e Cajá</p>
+              <span class="menu-item__tag">Bebiba sem álcool</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Suco Detox</span>
+              <span class="menu-item__price">R$ 14,90</span>
+              <p class="menu-item__desc">Descrição do produto</p>
+              <span class="menu-item__tag">Bebiba sem álcool</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Suco com duas frutas</span>
+              <span class="menu-item__price">R$ 12,90</span>
+              <p class="menu-item__desc">Laranja com acerola, Abacaxi com hortelã, Morango com laranja e Açaí com laranja</p>
+              <span class="menu-item__tag">Bebiba sem álcool</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Vitamina de Açaí</span>
+              <span class="menu-item__price">R$ 14,90</span>
+              <span class="menu-item__tag">Bebiba sem álcool</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-group" data-group="bebidas com alcool">
+          <div class="menu-grid">
+            <div class="menu-item">
+              <span class="menu-item__name">Skol</span>
+              <span class="menu-item__price">R$ 13</span>
+              <span class="menu-item__tag">Cerveja 600ml</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Original</span>
+              <span class="menu-item__price">R$ 17,90</span>
+              <span class="menu-item__tag">Cerveja 600ml</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Spaten</span>
+              <span class="menu-item__price">R$ 16,90</span>
+              <span class="menu-item__tag">Cerveja 600ml</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Brahma chop</span>
+              <span class="menu-item__price">R$ 13</span>
+              <span class="menu-item__tag">Cerveja 600ml</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Brahma duplo</span>
+              <span class="menu-item__price">R$ 14,90</span>
+              <span class="menu-item__tag">Cerveja 600ml</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Itaipava</span>
+              <span class="menu-item__price">R$ 11,90</span>
+              <span class="menu-item__tag">Cerveja 600ml</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Império</span>
+              <span class="menu-item__price">R$ 11,90</span>
+              <span class="menu-item__tag">Cerveja 600ml</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Budweiser</span>
+              <span class="menu-item__price">R$ 14,90</span>
+              <span class="menu-item__tag">Cerveja 600ml</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Heineken</span>
+              <span class="menu-item__price">R$ 19,99</span>
+              <span class="menu-item__tag">Cerveja 600ml</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Eisenbahn</span>
+              <span class="menu-item__price">R$ 14,90</span>
+              <span class="menu-item__tag">Cerveja 600ml</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Corona</span>
+              <span class="menu-item__price">R$ 21,90</span>
+              <span class="menu-item__tag">Cerveja 600ml</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Amstel</span>
+              <span class="menu-item__price">R$ 15</span>
+              <span class="menu-item__tag">Cerveja 600ml</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Skol litrão</span>
+              <span class="menu-item__price">R$ 18</span>
+              <span class="menu-item__tag">Cerveja litrão</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Original litrão</span>
+              <span class="menu-item__price">R$ 19,90</span>
+              <span class="menu-item__tag">Cerveja litrão</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Brahma litrão</span>
+              <span class="menu-item__price">R$ 18</span>
+              <span class="menu-item__tag">Cerveja litrão</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Itaipava litrão</span>
+              <span class="menu-item__price">R$ 14,90</span>
+              <span class="menu-item__tag">Cerveja litrão</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Skol</span>
+              <span class="menu-item__price">R$ 7</span>
+              <span class="menu-item__tag">Cerveja lata</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Original</span>
+              <span class="menu-item__price">R$ 8</span>
+              <span class="menu-item__tag">Cerveja lata</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Spaten</span>
+              <span class="menu-item__price">R$ 8</span>
+              <span class="menu-item__tag">Cerveja lata</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Brahma chop</span>
+              <span class="menu-item__price">R$ 7</span>
+              <span class="menu-item__tag">Cerveja lata</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Brahma Duplo</span>
+              <span class="menu-item__price">R$ 8</span>
+              <span class="menu-item__tag">Cerveja lata</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Itaipava</span>
+              <span class="menu-item__price">R$ 6</span>
+              <span class="menu-item__tag">Cerveja lata</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Império</span>
+              <span class="menu-item__price">R$ 7,50</span>
+              <span class="menu-item__tag">Cerveja lata</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Budweiser</span>
+              <span class="menu-item__price">R$ 8</span>
+              <span class="menu-item__tag">Cerveja lata</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Heineken</span>
+              <span class="menu-item__price">R$ 9,99</span>
+              <span class="menu-item__tag">Cerveja lata</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Eisenbahn</span>
+              <span class="menu-item__price">R$ 7,50</span>
+              <span class="menu-item__tag">Cerveja lata</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Budweiser</span>
+              <span class="menu-item__price">R$ 11,90</span>
+              <span class="menu-item__tag">Long Neck</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Heineken</span>
+              <span class="menu-item__price">R$ 12,90</span>
+              <span class="menu-item__tag">Long Neck</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Stella artois</span>
+              <span class="menu-item__price">R$ 11,90</span>
+              <span class="menu-item__tag">Long Neck</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Spaten</span>
+              <span class="menu-item__price">R$ 10,90</span>
+              <span class="menu-item__tag">Long Neck</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Corona</span>
+              <span class="menu-item__price">R$ 13,90</span>
+              <span class="menu-item__tag">Long Neck</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Becks</span>
+              <span class="menu-item__price">R$ 12,90</span>
+              <span class="menu-item__tag">Long Neck</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Skol Beats</span>
+              <span class="menu-item__price">R$ 14,99</span>
+              <p class="menu-item__desc">Azul, Verde, Vermelha, GT e ICE</p>
+              <span class="menu-item__tag">Skol Beats</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Caipirinha com cachaça</span>
+              <span class="menu-item__price">R$ 19,99</span>
+              <span class="menu-item__tag">Caipirinha</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Caipirinha com vodka</span>
+              <span class="menu-item__price">R$ 24,90</span>
+              <span class="menu-item__tag">Caipirinha</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-item__name">Batidas</span>
+              <span class="menu-item__price">R$ 19,99</span>
+              <span class="menu-item__tag">Caipirinha</span>
+            </div>
+          </div>
+        </div>    
+      </div>
+    </section>
+
+    <!-- LOCATION -->
+    <section id="local" class="section section--dark">
+      <div class="container">
+        <div class="section__head">
+          <span class="eyebrow">Onde estamos</span>
+          <h2>Passe pra tomar um litrão</h2>
+          <p>Temos música ao vivo nos finais de semana. Esperamos você aqui.</p>
+        </div>
+
+        <div class="local-grid">
+          <div class="local-card">
+            <h3>Endereço &amp; horários</h3>
+            <div class="local-info">
+              <div>
+                <span class="ico">&#9873;</span>
+                <div>
+                  <strong>Av. Dep. Emílio Carlos, 3856</strong>
+                  <small>Limão &middot; São Paulo &middot; CEP 02720-200</small>
+                </div>
+              </div>
+              <div>
+                <span class="ico">&#9200;</span>
+                <div>
+                  <strong>Segunda a Quinta</strong>
+                  <small>08h &mdash; 20h</small>
+                </div>
+              </div>
+              <div>
+                <span class="ico">&#9200;</span>
+                <div>
+                  <strong>Sexta e Sábado</strong>
+                  <small>08h &mdash; 00h</small>
+                </div>
+              </div>
+              <div>
+                <span class="ico">&#9200;</span>
+                <div>
+                  <strong>Domingo</strong>
+                  <small>10h &mdash; 22h</small>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+
+          <div class="map-embed" aria-label="Mapa ilustrativo">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2176.0041582934728!2d-46.66987182561862!3d-23.47531441482654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef77d223916ad%3A0xc817889d1b20d89b!2sRestaurante%20Portal%20Da%20Cachoeirinha!5e0!3m2!1spt-BR!2sbr!4v1783973202903!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            <span class="map-pin"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT / RESERVAS -->
+    <section id="contato" class="section">
+      <div class="container">
+        <div class="section__head">
+          <span class="eyebrow">Contato &amp; Reservas</span>
+          <h2>Reserve sua mesa</h2>
+          <p>Grupos a partir de 6 pessoas, aniversários e eventos privativos: fale com a gente.</p>
+        </div>
+
+        <div class="contact-grid">
+         <div> 
+          <aside class="contact-side">
+            <div>
+              <h3>Fale conosco</h3>
+              <p>Prefere resolver rapidinho? Chama a gente no WhatsApp.</p>
+              <div class="contact-list">
+                <a href="tel:+550000000000"><span class="ico">&#9742;</span> (11) 3989-1446</a>
+                <a href="https://wa.me/5500000000000"><span class="ico">&#9993;</span> WhatsApp (00) 3989-1446</a>
+              </div>
+            </div>
+            <div>
+              <p style="margin-bottom:12px;font-size:13px;letter-spacing:.05em;text-transform:uppercase;color:rgba(244,231,201,.5)">Siga a gente</p>
+              <div class="socials">
+                <a href="https://www.instagram.com/portaldacachoeirinha/" aria-label="Instagram">IG</a>
+                <a href="https://web.facebook.com/p/Lanchonete-e-restaurante-portal-da-cachoeirinha-100067080384204/?locale=pt_BR&_rdc=1&_rdr#" aria-label="Facebook">FB</a>
+              </div>
+            </div>
+          </div>
+         </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer id="site-footer" class="footer">
+    <div class="container">
+      <p><strong>Portal da Cachoeirinha</strong> &middot; Comida brasileira com pratos típicos nordestinos</p>
+      <p style="margin-top:6px">&copy; <span id="year"></span> Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="script.js" defer></script>
+</body>
+</html>
